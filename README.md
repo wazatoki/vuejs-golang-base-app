@@ -20,7 +20,7 @@ The development environment is assumed to be linux.
 
 ### db setup by docker on linux
 
-tools/postgresql_container/start_database.shを実行。
+execute tools/postgresql_container/start_database.sh
 
 ### production setup
 
