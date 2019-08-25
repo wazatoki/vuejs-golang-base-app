@@ -11,6 +11,8 @@ The development environment is assumed to be linux.
 * goenv
 * nodenv
 * postgresql
+* sqlboiler
+
 
 ## DB Setup
 
@@ -43,6 +45,21 @@ prease setup production database by postgresql
 
   nodenv install 12.9.0
   nodenv local 12.9.0
+
+1. install sqlboiler  
+
+  go get -u -t github.com/volatiletech/sqlboiler
+  go get github.com/volatiletech/sqlboiler/drivers/sqlboiler-psql
+
+1. download dependency liblalyies
+
+  cd src  
+  go build
+
+  cd js  
+  npm install
+
+
 
 ## Licence
 MIT Licence

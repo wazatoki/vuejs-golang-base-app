@@ -1,0 +1,8 @@
+[psql]
+  dbname = "demodb"
+  host   = "localhost"
+  port   = 5432
+  user   = "demo"
+  pass   = "demo"
+  sslmode= "disable"
+  blacklist = []

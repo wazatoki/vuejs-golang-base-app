@@ -1,0 +1,7 @@
+mode: "development"
+httpPort: "8080"
+dbUrl: "127.0.0.1"
+dbPort: "5432"
+dbName: "demodb"
+dbUser: "demo"
+dbPassword: "demo"
